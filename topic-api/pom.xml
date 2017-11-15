@@ -4,8 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.io.newput</groupId>
-	<artifactId>topic-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<!-- <artifactId>topic-api</artifactId>
+	<version>0.0.1-SNAPSHOT</version> -->
+	<artifactId>application</artifactId>
 	<packaging>jar</packaging>
 
 	<name>topic-api</name>
