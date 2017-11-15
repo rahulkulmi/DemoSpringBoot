@@ -4,9 +4,9 @@ phases:
   build:
     commands:
       - cd topic-api && mvn package
-      - mv topic-api/target/topic-api-0.0.1-SNAPSHOT.war topic-api-0.0.1-SNAPSHOT.war
+      - mv topic-api/target/topic-api-0.0.1-SNAPSHOT.jar topic-api-0.0.1-SNAPSHOT.jar
 
 artifacts:
   files:
-    - topic-api-0.0.1-SNAPSHOT.war
+    - topic-api-0.0.1-SNAPSHOT.jar
     - topic-api/.ebextensions/**/*
