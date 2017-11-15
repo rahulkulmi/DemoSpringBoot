@@ -39,4 +39,9 @@ public class TopicController {
 	public void deleteTopic(@PathVariable String id) {
 		topicService.deleteTopic(id);
 	}
+
+	@RequestMapping("/ping")
+	public String getServerStatus() {
+		return "Server is running.";
+	}
 }
