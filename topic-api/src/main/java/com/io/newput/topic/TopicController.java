@@ -42,6 +42,6 @@ public class TopicController {
 
 	@RequestMapping("/ping")
 	public String getServerStatus() {
-		return "Server is running.";
+		return "New Server is running.";
 	}
 }
